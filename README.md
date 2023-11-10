@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://vittfiles.github.io/gallery-social.html">
+    <a href="https://vittfiles.github.io/gallery-social">
       Demo
     </a>
     <span> | </span>
