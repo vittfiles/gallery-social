@@ -82,10 +82,18 @@ html ,body {
     max-width: 960px;
     margin: 0px auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);/* 
+    grid-template-rows: repeat(3, 1fr); */
+    grid-auto-rows: 1fr;
+    grid-auto-flow: row dense;
 }
-.gallery1 {
+.col-span-2{
+    grid-column: span 2;
+}
+.row-span-2{
+    grid-row: span 2;
+}
+/* .gallery1 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -120,7 +128,7 @@ html ,body {
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
-}
+} */
 .wrapper > div{
     width: auto;
     border-radius: 1rem;
